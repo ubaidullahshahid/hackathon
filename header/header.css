@@ -1,0 +1,120 @@
+.header-main-div{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+.header-container {
+    background-color: #145779;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 6vh;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    /* margin-right: 20px; */
+}
+
+.header a:hover {
+    color: aqua;
+}
+
+.nav-bar-container {
+    width: 100%;
+}
+
+
+.bg-color {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10vh;
+    flex-wrap: wrap;
+    
+}
+.vava-car-logo {
+    width: 12vw;
+    height: 7vh;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-bar a:hover {
+    color: rgb(17, 0, 255);
+}
+
+.header-drop-down2:hover {
+    cursor: pointer;
+    color: rgb(17, 0, 255);
+}
+
+.header-drop-down2 {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    width: 9vw;
+    text-align: center;
+}
+
+.header-drop-down1:hover {
+    cursor: pointer;
+    color: rgb(17, 0, 255);
+}
+
+.inner-option {
+    color: black;
+    width: 20vw;
+}
+
+.header-drop-down1 {
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    width: 13vw;
+}
+@media (max-width:700px) {
+    .header-main-div{
+        width: 100%;
+    }
+    .header{
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 3vw;
+        justify-content: space-evenly;
+    }
+    .nav-bar{
+        display: flex;
+        font-size: 2.1vw;
+    }
+}
